@@ -12,7 +12,7 @@ class Person:
     def __eq__(self, other):
         return self.name == other.name
 
-p1 = Person("John")
+p1 = Person("John") # p2와 다른 객체
 p2 = Person("John")
 
 print(p1 == p2)
